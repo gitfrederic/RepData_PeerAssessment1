@@ -21,7 +21,7 @@ data$date <- as.POSIXct(data$date, format = "%Y-%m-%d", tz = "US/Pacific")
 
 
 
-## The mean total number of steps taken per day.
+## The mean total number of steps taken per day
 
 
 ```r
@@ -203,4 +203,3 @@ ggplot(data = data, mapping = aes(x = interval, y = imputed_steps)) + stat_summa
 
 
 As the plot above shows, there are differences in the weekend vs. weekday activity patterns.
-
